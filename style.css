@@ -1,0 +1,232 @@
+.body {
+    background-color: rgb(255, 255, 255);
+    font-size: 100%;
+    font-family: Arial;
+    line-height: 1.5;
+    text-align: left;
+    margin: auto;
+    width: 70%;
+    clear: both;
+}
+
+a {
+    text-decoration: none;
+}
+
+.mainHeader {
+    /*border: 2px solid pink;*/
+    max-width: 100%;
+    height: 280px;
+    position: relative;
+}
+
+.mainHeader #breedingLogo {
+    max-width: 100%;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+}
+
+.mainHeader #wcfLogo {
+    max-width: 7%;
+    /*height: 105px;*/
+    bottom: 0;
+    position: absolute;
+}
+
+.mainHeader #pzfLogo {
+    max-width: 6%;
+    /*height: 105px;*/
+    bottom: 0;
+    left: 7%;
+    position: absolute;
+}
+
+.mainMenu ul {
+    list-style-type: none;
+    margin-left: -3.1%;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgba(51, 51, 51, 0.8);
+    border-radius: 5px;
+}
+
+.mainMenu li {
+    float: left;
+}
+
+.mainMenu li a , .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.mainMenu li a:hover, .dropdown:hover .dropbtn {
+    background-color: rgb(204, 204, 204);
+    color: black;
+}
+
+.mainMenu li.dropdown {
+    display: inline-block;
+}
+
+.mainMenu .dropdown .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 95px;
+    z-index: 1;
+    border-radius: 5px;
+}
+
+.mainMenu .dropdown .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.mainMenu .dropdown .dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+.mainMenu .dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.mainContent, .mainFooter {
+    border-radius: 5px;
+    width: 70%;
+    background-color: rgba(128, 128, 128, 0.5);
+    float: left;
+}
+
+.mainContent .mainArticle {
+    padding: 0.5% 2% 2% 2%;
+}
+
+.mainContent footer {
+    font-style: italic;
+    font-size: 80%;
+}
+
+.mainContent #mainArticlePhoto {
+    float:right;
+    width: 20%;
+}
+
+.aside .topSidebar{
+    width: 29%;
+    right: 0;
+    border-radius: 5px;
+    background-color: rgba(128, 128, 128, 0.5);
+    float: right;
+}
+
+.aside .topSidebar article {
+    padding: 0.5% 2% 2% 2%;
+}
+
+.aside .topSidebar #quote {
+    font-size: 80%;
+    margin: 5%;
+    text-align: center;
+}
+
+.aside .bottomPicture img {
+    float: right;
+    width: 30%;
+    margin-top: 2%;
+    margin-bottom: 1%;
+}
+
+.aside .topSidebar #fbLogo {
+    display: block;
+    margin: auto;
+    max-width: 50%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.mainFooter {
+    margin: 1% 0 1% 0;
+    border-radius: 5px;
+    width: 70%;
+    background-color: rgba(128, 128, 128, 0.5);
+    float: left;
+}
+
+.mainFooter p {
+    padding-left: 2%;
+}
+
+.mainContent .contact {
+    float: left;
+    padding-bottom: 4%;
+}
+
+.form #message {
+    width: 70%;
+    height: 200px;
+}
+
+.mainContent #catPhoto {
+    float: right;
+    width: 30%;
+    margin-bottom: 3%;
+}
+
+
+
+/*.mainMenu {
+    background-color: rgba(136, 126, 104, 0.5);
+    height: 40px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+.mainMenu ul {
+    list-style: none;
+}
+
+.mainMenu ul li {
+    float: left;
+    display: inline-block;
+}
+
+.mainMenu nav a, .mainMenu .dropbtn, .mainMenu .dropdown-content {
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+.mainMenu nav a:link, .mainMenu nav a:visited, .mainMenu .dropbth {
+    color: rgb(0, 0, 0);
+    display: inline-block;
+    padding: 10px 25px;
+}
+
+.mainMenu nav a:hover, .mainMenu nav a:active {
+    color: rgb(255, 255, 255);
+    background-color: rgba(86, 80, 67, 0.8);
+    display: inline-block;
+    padding: 10px 25px;
+    height: 20px;
+}
+
+.mainMenu .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgba(136, 126, 104, 0.5);
+    min-width: 100px;
+
+}
+
+.mainMenu .dropdown:hover .dropdown-content {
+    display: inline-block;
+}*/
